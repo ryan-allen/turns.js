@@ -1,0 +1,23 @@
+A little JavaScript library for writing turn based stories.
+
+The goal is to make the library flexible enough to be able to run
+on either the command line or in perhaps a webpage that looks pretty.
+
+The other goal is to experiment with using javascript object literals
+to write the stories, much like how my lumberjack library is written
+in order to write object trees.
+
+The other goal is for me to write some JavaScript in the style suggested
+by Dougalas Crockford's book 'JavaScript - The Good Parts'. Which
+is a great read, by the way.
+
+So far it doesn't look right (the story markup), might have to write
+some intermediate library for writing stories without the hectic
+nested objects, ack.
+
+To run the example story, you'll need spider monkey installed, (on
+Ubuntu it's 'apt-get install spidermonkey-bin'), and then type:
+
+  js play.js
+
+To run through the Ice Cream Shop story.
